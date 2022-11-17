@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snap</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container__logo">
+      <img src="./assets/images/logo.svg" alt="logo">
+    </div>
+    <div class="navbar__menu-collapsed-btn"><img id="toggle-btn" src="./assets/images/icon-menu.svg" alt=""></div>
+      <ul class="navbar__nav">
+        <div class="navbar__menu-collapsed-btn-close">
+        </div>
+        <li class="nav__item">
+            <a class="nav__item nav__item-buttondropdown">Features <img src="./assets/images/icon-arrow-down.svg" alt=""></a>
+              <ul class="navbar__dropdown">
+                <li class="nav__item"><a href=""><img src="./assets/images/icon-todo.svg" alt="">Todo List</a></li>
+                <li class="nav__item"><a href=""><img src="./assets/images/icon-calendar.svg" alt="">Calendar</a></li>
+                <li class="nav__item"><a href=""><img src="./assets/images/icon-reminders.svg" alt="">Reminders</a></li>
+                <li class="nav__item"><a href=""><img src="./assets/images/icon-planning.svg" alt="">Planing</a></li>
+              </ul>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item nav__item-buttondropdown">Company <img src="./assets/images/icon-arrow-down.svg" alt=""></a>
+            <ul class="navbar__dropdown">
+                <li class="nav__item"><a href="">History</a></li>
+                <li class="nav__item"><a href="">Our Team</a></li>
+                <li class="nav__item"><a href="">Blog</a></li>
+            </ul>
+      </li>
+        <li class="nav__item">
+          <a href="" class="nav__item">Careers</a>
+        </li>
+        <li class="nav__item">
+          <a href="" class="nav__item">About</a>
+        </li>
+        <div class="items-right">
+          <li class="nav__item nav__item-right">
+            <a href="" class="navbar__btn-login">Login</a>
+          </li>
+          <li class="nav__item nav__item-right">
+            <a href="" class="navbar__btn-singin">Register</a>
+          </li>
+        </div>
+      </ul>
+  </nav>
+  
+  <section class="header">
+    <div class="header__col header__content">
+        <h1 class="header__content-title">Make <br> remote Work</h1>
+        <p class="header__content-subtitle">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+        <button href="" class="header__content-button">Learn more</button>
+        <div class="header__content-brands">
+          <img src="./assets/images/client-databiz.svg" alt="">
+          <img src="./assets/images/client-audiophile.svg" alt="">
+          <img src="./assets/images/client-meet.svg" alt="">
+          <img src="./assets/images/client-maker.svg" alt="">
+        </div>
+    </div>
+    <div class="header__col">
+      <img class="header__image-desktop" src="./assets/images/image-hero-desktop.png" alt="">
+      <img class="header__image-mobile" src="./assets/images/image-hero-mobile.png" alt="">
+    </div>
+  </section>
+
+  <div class="navbar__collapsed-dialog"></div>
+  <script src="./assets/js/main.js"></script>
+  
+</body>
+</html>
